@@ -1,6 +1,6 @@
 # 🌊 Multi-Agency Rocky Intertidal Network Species Distributions Data Science Project
 
-## Overview
+## Overview ##
 
 This repository contains code for a visualization and machine learning modeling project focused on intertidal species distributions. The project is divided into two main parts: visualization and modeling. We collaborated with University of California, Santa Cruz Multi-Agency Rocky Intertidal Network (MARINe) Team to realize this data science project.
 ---
