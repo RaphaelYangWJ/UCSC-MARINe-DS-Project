@@ -48,12 +48,22 @@ Conducts multi-class regression to predict species distributions for five catego
 ## Project Structure
 
 ```
-plaintextCopy code|_ data/                  # Data files used for visualization and modeling
-|_ results/               # Output visualizations and modeling results
-|_ visualization.py       # Python script for visualization
-|_ logistic_regression.py # Python script for Logistic Regression modeling
-|_ neural_networks.py     # Python script for Neural Networks modeling
-|_ README.md              # Project documentation
+plaintextCopy code|_ Machine_Learning/   # Data files for Modeling
+|_ Binary_Classification/               # Output Binary_Classification
+
+|_ Multiclass_Neural_Networks/      # Modeling Files for Neural Networks
+   |_ NN - Feature Engineering.ipynb      # Jupyter Notebook for EDA & Feature Engineering
+   |_ Phase I - Neural Networks.ipynb      # Jupyter Notebook for Phase I Neural Networks (By Pytorch)
+   |_ Phase II - Neural Networks.ipynb      # Jupyter Notebook for Phase II Neural Networks (By Pytorch)
+   |_ neural_network_model/      # Trained-model parameters
+      |_ Phase I - Species Distribution Model.pth      # Phase I trained model
+      |_ Phase II - Species Distribution Model.pth      # Phase II trained model
+   |_ dataset/      # Dataset folder
+      |_ raw_data.xlsx      # Raw dataset used in Feature Engineering
+      |_ phase_1_testset.csv      # Testset for Phase I modeling
+      |_ phase_1_trainset.csv      # Trainset for Phase I modeling
+      |_ phase_2_testset.csv      # Testset for Phase II modeling
+      |_ phase_2_trainset.csv      ## Trainset for Phase II modeling
 ```
 
 Feel free to explore and adapt the scripts to suit your needs. If you have any questions or issues, please create a GitHub issue, and we'll be happy to assist you.
