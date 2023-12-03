@@ -59,7 +59,7 @@ plaintextCopy code|_ Machine_Learning/
       |_ Phase I - Species Distribution Model.pth
       |_ Phase II - Species Distribution Model.pth
    |_ dataset/      # Dataset folder
-      |_ raw_data.xlsx      # Raw dataset used in Feature Engineering
+      |_ raw_data.xlsx
       |_ phase_1_testset.csv
       |_ phase_1_trainset.csv
       |_ phase_2_testset.csv
