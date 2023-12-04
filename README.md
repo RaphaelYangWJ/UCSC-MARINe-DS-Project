@@ -35,7 +35,6 @@ The modeling part of the project focuses on predicting species distributions bas
 Performs binary classification to identify specific species distribution probability
    - Logistic Regression
    - Random Forest
-   - 
 2. **Multi-Species Prediction:**
 Conducts multi-class regression to predict species distributions for five categories across eight sites.
    - Neural Networks
